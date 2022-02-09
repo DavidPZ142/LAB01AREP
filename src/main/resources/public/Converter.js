@@ -4,7 +4,7 @@ var converter=(function () {
     return {
         connection: function (name, ingresado) {
             //'http://localhost:4567/Converter/' + name + '/' + ingresado
-
+            //'https://temperatureconverterarep.herokuapp.com/Converter/'+name+'/'+ingresado
             var url = 'https://temperatureconverterarep.herokuapp.com/Converter/'+name+'/'+ingresado
             fetch('https://temperatureconverterarep.herokuapp.com/Converter/'+name+'/'+ingresado, {
                 method: 'GET',

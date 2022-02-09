@@ -8,11 +8,14 @@
     text-align: center;
     margin: auto;
 
-
+    border: 3px solid silver;
     padding: 10px;
 
 }
 
 .centrar{
     margin: 0 auto;
+}
+.fondo{
+    background: linear-gradient(to right, black, white);
 }
