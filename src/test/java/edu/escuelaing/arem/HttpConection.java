@@ -7,6 +7,7 @@ import java.net.URL;
 public class HttpConection extends  Thread{
     private static final String GET_URL ="https://temperatureconverterarep.herokuapp.com/index.html";
     private static final String USER_AGENT = "Mozilla/5.0";
+    public int code;
     @Override
     public void run(){
         try{
@@ -14,7 +15,7 @@ public class HttpConection extends  Thread{
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
             con.setRequestMethod("GET");
             con.setRequestProperty("User-Agent",USER_AGENT);
-
+            code = con.getResponseCode();
 
 
 
@@ -23,6 +24,9 @@ public class HttpConection extends  Thread{
 
         }
 
+    }
+    public int getCode(){
+        return code;
     }
 
 }
