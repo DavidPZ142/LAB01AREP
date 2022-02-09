@@ -1,2 +1,4 @@
 # LAB01AREP
-David Pérez XD
+# _David Pérez_
+### Arquitectura utilizada: 
+
