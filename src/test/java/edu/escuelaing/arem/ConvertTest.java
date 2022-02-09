@@ -15,7 +15,6 @@ public class ConvertTest  {
 
 
     @Test
-
     public void convierteBienaFahrenheit(){
         Converter converter = new Converter("Celsius",45);
         converter.metodoConverter();
@@ -24,7 +23,6 @@ public class ConvertTest  {
     }
 
     @Test
-
     public void CambiaYFunciona(){
         Converter converter = new Converter("Celsius",32);
         converter.setName("Fahrenheit");
