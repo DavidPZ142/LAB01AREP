@@ -1,11 +1,16 @@
 .container {
     font-family: "Comic Sans MS";
     font-size: 24px;
-    margin: 25px;
+
     width: 350px;
     height: 200px;
     outline: dashed 1px black;
     text-align: center;
+    margin: auto;
+
+
+    padding: 10px;
+
 }
 
 .centrar{
