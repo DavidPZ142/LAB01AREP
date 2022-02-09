@@ -11,7 +11,7 @@ var converter=(function () {
                 }
             })
                 .then(response => response.json())
-                .then(json => console.log(json))
+                .then(json => $('#res').html(json.res))
         }
     }
 })

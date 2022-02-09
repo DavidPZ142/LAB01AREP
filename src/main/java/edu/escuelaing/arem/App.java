@@ -25,7 +25,7 @@ public class App {
     }
     public static JSONObject newConverter(String name, String ingresado){
         Converter converter = new Converter(name, Float.parseFloat(ingresado));
-        converter.metodo();
+        converter.metodoConverter();
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("name",converter.getName());
         jsonObject.put("ingresado",converter.getIngresado());
