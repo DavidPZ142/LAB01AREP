@@ -12,8 +12,6 @@ public class App {
         staticFileLocation("/public");
         get("/Converter/:name/:ingresado", (req,res) -> newConverter(req.params(":name"), req.params(":ingresado")));
 
-
-        get("/Arep", (req,res)-> "Arep XD");
     }
 
     static int getPort() {
