@@ -54,6 +54,12 @@ En nuestra clase Converter realizamos la logica del proyecto
 
 ## Aplicacion desplegada 
 
+Se hace una interfaz facil de usar y amigable con el usuario
+![](https://github.com/DavidPZ666/LAB01AREP/blob/master/img/heroku.PNG)
 ## Atributos de calidad
-
+* Desplegabilidad 
+* Escalabilidad.
 ## Limitaciones
+* Seguridad
+* Rendimiento
+* Disponibilidad
